@@ -1,5 +1,6 @@
 # spotify-polybar
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/example1.png)
+![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/example2.png)
 
 Modules to Control spotify from the polybar (Each module is independent)
 
