@@ -43,3 +43,13 @@ interval = 1
 format = <label>
 click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
 ```
+### Module Song
+```
+[module/song]
+type = custom/script
+exec = ~/.config/bin/song.sh
+interval = 1
+format-prefix = "  "
+format = <label>
+```
+
