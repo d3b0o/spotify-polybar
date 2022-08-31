@@ -1,4 +1,6 @@
 # spotify-polybar
+
+### Module PLay
 ```
 [module/play]
 type = custom/script
