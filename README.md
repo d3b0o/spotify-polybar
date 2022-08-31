@@ -1,5 +1,5 @@
 # spotify-polybar
-
+Modulos Para Controlar spotify desde la polybar (Cada modulo es independiente)
 ### Module Play
 ```
 [module/play]
@@ -14,7 +14,7 @@ click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/
 ```
 [module/previous]
 type = custom/script
-exec = python ~/.config/bin/ant.py
+exec = python ~/.config/bin/previous.py
 interval = 1
 ;format-prefix = "  "
 format = <label>
