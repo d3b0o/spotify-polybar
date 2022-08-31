@@ -1,6 +1,6 @@
 # spotify-polybar
 
-### Module PLay
+### Module Play
 ```
 [module/play]
 type = custom/script
@@ -10,6 +10,7 @@ interval = 1
 format = <label>
 click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
 ```
+### Module Previous
 ```
 [module/previous]
 type = custom/script
@@ -19,6 +20,7 @@ interval = 1
 format = <label>
 click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
 ```
+### Module Next
 ```
 [module/next]
 type = custom/script
