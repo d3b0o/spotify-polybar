@@ -1,6 +1,11 @@
 # spotify-polybar
 Modulos Para Controlar spotify desde la polybar (Cada modulo es independiente)
-### Module Play
+```
+git clone https://github.com/d3b0o/spotify-polybar
+cd spotify-polybar
+mkdir ~/.config/bin
+mv play.py next.py previous.py ~/.config/bin/
+### Module Play/Pause
 ```
 [module/play]
 type = custom/script
