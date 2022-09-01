@@ -14,9 +14,9 @@ cd spotify-polybar
 
 mkdir ~/.config/bin
 
-chmod +x song.sh
+chmod +x song.sh play.sh next.sh previous.sh
 
-mv play.py next.py previous.py song.sh ~/.config/bin/
+mv play.sh next.sh previous.sh song.sh ~/.config/bin/
 ```
 ### Module Play/Pause
 ```
