@@ -22,7 +22,7 @@ mv play.py next.py previous.py song.sh ~/.config/bin/
 ```
 [module/play]
 type = custom/script
-exec = python ~/.config/bin/play.py
+exec = ~/.config/bin/play.sh
 interval = 1
 ;format-prefix = "  "
 format = <label>
@@ -32,7 +32,7 @@ click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/
 ```
 [module/previous]
 type = custom/script
-exec = python ~/.config/bin/previous.py
+exec = ~/.config/bin/previous.sh
 interval = 1
 ;format-prefix = "  "
 format = <label>
@@ -42,7 +42,7 @@ click-left = dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/
 ```
 [module/next]
 type = custom/script
-exec = python ~/.config/bin/next.py
+exec = ~/.config/bin/next.sh
 interval = 1
 ;format-prefix = "  "
 format = <label>
