@@ -56,12 +56,3 @@ exec = ~/.config/bin/song.sh
 interval = 1
 format-prefix = "  "
 format = <label>
-
-| Command  |  |
-| ------------- | ------------- |
-| Super + Enter  | gnome-terminal  |
-| Super + d  | rofi launcher  |
-| super + Shift + f   | Content Cell  |
-| Super + d  | Content Cell  |
-```
-
