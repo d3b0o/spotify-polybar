@@ -60,7 +60,7 @@ try:
         print(texto)
 
 except:
-    print("")
+    print("No song")
 
 
 
