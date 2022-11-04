@@ -72,4 +72,5 @@ interval = 1
 format = <label>
 ```
 Pon en interval la velocidad que quieres que tenga el texto
+
 Pon en la variable lenght del archivo animated-text-song.py el limite de caracteres
