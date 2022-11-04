@@ -56,3 +56,11 @@ exec = ~/.config/bin/song.sh
 interval = 1
 format-prefix = "  "
 format = <label>
+```
+### Module Song
+```
+[module/animated-song]
+type = custom/script
+exec = ~/.config/bin/animated-text-song.sh
+interval = 1
+format = <label>
