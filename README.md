@@ -57,7 +57,7 @@ interval = 1
 format-prefix = "  "
 format = <label>
 ```
-### Module Song
+### Module Animated - Song
 ```
 [module/animated-song]
 type = custom/script
