@@ -16,7 +16,13 @@ mkdir ~/.config/bin
 
 chmod +x song.sh play.sh next.sh previous.sh
 
-mv play.sh next.sh previous.sh song.sh ~/.config/bin/
+mv play.sh next.sh previous.sh song.sh animated-text-song.py ~/.config/bin/
+
+touch ~/.config/bin/progress.txt
+
+echo "1" > ~/.config/bin/progress.txt
+
+
 ```
 ### Module Play/Pause
 ```
@@ -64,3 +70,6 @@ type = custom/script
 exec = ~/.config/bin/animated-text-song.sh
 interval = 1
 format = <label>
+```
+Pon en interval la velocidad que quieres que tenga el texto
+Pon en la variable lenght del archivo animated-text-song.py el limite de caracteres
