@@ -14,9 +14,9 @@ cd spotify-polybar
 
 mkdir ~/.config/bin
 
-chmod +x song.sh play.sh next.sh previous.sh
+chmod +x song.sh play.sh next.sh previous.sh animated.sh
 
-mv play.sh next.sh previous.sh song.sh animated-text-song.py ~/.config/bin/
+mv play.sh next.sh previous.sh song.sh animated.sh ~/.config/bin/
 
 touch ~/.config/bin/progress.txt
 
@@ -67,7 +67,7 @@ format = <label>
 ```
 [module/animated-song]
 type = custom/script
-exec = ~/.config/bin/animated-text-song.sh
+exec = ~/.config/bin/animated.sh
 interval = 1
 format = <label>
 ```
