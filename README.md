@@ -1,7 +1,16 @@
 # spotify-polybar
+
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/example1.png)
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/example2.png)
+
+Song.sh
+
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/example3.png)
+
+Animated.sh
+
+![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/2022-11-06 11-07-18.gif)
+
 
 
 Modules to Control spotify from the polybar (Each module is independent)
