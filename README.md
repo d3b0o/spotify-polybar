@@ -9,7 +9,7 @@ Song.sh
 
 Animated.sh
 
-![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/2022-11-06 11-07-18.gif)
+![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/animated.gif)
 
 
 
