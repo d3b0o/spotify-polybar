@@ -2,6 +2,8 @@
 
 El módulo de Spotify para Polybar es una extensión altamente personalizable que permite a los usuarios tener un control completo sobre su experiencia musical en Spotify directamente desde su barra de tareas. Diseñado para integrarse sin problemas con Polybar, un gestor de barras de tareas para entornos de escritorio, este módulo brinda una forma eficiente y elegante de gestionar la reproducción de música sin necesidad de cambiar de ventana o aplicación.
 
+Song.sh + Previous.sh + Play.sh + Next.sh
+
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/example1.png)
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/example2.png)
 
