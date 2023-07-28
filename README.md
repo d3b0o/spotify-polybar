@@ -16,9 +16,6 @@ Animated.sh
 ![alt text](https://github.com/d3b0o/spotify-polybar/blob/main/examples/animated.gif)
 
 
-
-Modules to Control spotify from the polybar (Each module is independent)
-
 Modulos Para Controlar spotify desde la polybar (Cada modulo es independiente)
 ```
 git clone https://github.com/d3b0o/spotify-polybar
